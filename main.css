@@ -1,0 +1,13 @@
+header{
+    padding: 5px 50px;
+    background-color: #ffc0e5;
+    margin-bottom: 16px;
+}
+
+body{
+    background-color: #f2d8f5;
+}
+
+.container{
+    max-width: 600px;
+}
