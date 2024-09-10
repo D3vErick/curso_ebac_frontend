@@ -1,0 +1,1 @@
+function calculo(c,l){return c+l}module.exports=calculo;
