@@ -1,0 +1,63 @@
+*{ //Reset do css.
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container{ //Estilização do layout padrão da página.
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 1%;
+}
+
+.produto{ //Block
+    border: 2px solid #666666;
+    padding: 8px;
+    
+    &__imagem{ //Element - Estilização da imagem do produto.
+        width: 100%;
+    }
+
+    &__nome{ //Element - Estilização do nome do produto.
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+
+    &__descricao{ //Element - Estilização da descrição do produto.
+        color: gray;
+    }
+
+    &--destaque{ //Modifier - Estilização para itens em destaques.
+        border: 2px solid gold;
+        padding: 8px;
+        background-color: #ffff42;
+    }
+}
+
+.rodape{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+    background-color: gold;
+    max-width: 210px;
+
+    &__assinatura{
+        color: #fff;
+        font-weight: bold;
+    }
+
+    &__link{
+        padding-left: 8px;
+        color: #fff;
+    }
+}
+
+
