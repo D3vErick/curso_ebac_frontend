@@ -1,0 +1,20 @@
+{
+  "name": "exercicio",
+  "version": "1.0.0",
+  "description": "para fins de estudo.",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --watch -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browserslist": "> 0.25%",
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.28.3",
+    "babel": "^5.8.38"
+  }
+}
